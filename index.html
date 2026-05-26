@@ -10,15 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kavoon&display=swap" rel="stylesheet">
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- CSS (ALL FILES IN ROOT) -->
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="fontawesome-all.min.css" />
 
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-
-    <!-- No JS fallback -->
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
+        <link rel="stylesheet" href="noscript.css" />
     </noscript>
 </head>
 
@@ -28,9 +25,10 @@
     <section id="sidebar">
         <div class="inner">
             <div class="sidebar-logo">
-                <img src="images/logo.png" alt="SAMMA Logo" class="sidebar-logo-img" />
+                <img src="logo.png" alt="SAMMA Logo" class="sidebar-logo-img" />
                 <span class="sidebar-site-name">SAMMA</span>
             </div>
+
             <nav>
                 <ul>
                     <li><a href="#intro">Overview</a></li>
@@ -47,61 +45,70 @@
 
         <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up">
-            <div class="inner intro-left">
-                <h1 class="major">SAMMA</h1>
-                <p><strong>Nomash Anime Society — Nomash University's Official Anime Club</strong><br />
-                Whether you're a lifelong fan or just curious about anime, SAMMA is your home on campus.</p>
+            <div class="inner">
+                <h1>SAMMA</h1>
+                <p>Nomash Anime Society — University Anime Club</p>
 
                 <ul class="actions">
-                    <li><a href="#one" class="button scrolly join-btn">JOIN US →</a></li>
+                    <li><a href="#one" class="button scrolly">JOIN US →</a></li>
                 </ul>
             </div>
         </section>
 
-        <!-- One -->
+        <!-- Community -->
         <section id="one" class="wrapper style2 spotlights">
+
             <section>
-                <a href="#" class="image"><img src="images/meetup.jpg" /></a>
-                <div class="content"><div class="inner">
-                    <h2>Meetups & Discussions</h2>
-                    <p>Weekly anime discussions and social meetups.</p>
-                </div></div>
+                <a href="#" class="image">
+                    <img src="meetup.jpg" />
+                </a>
+                <div class="content">
+                    <h2>Meetups</h2>
+                    <p>Weekly discussions and anime chats.</p>
+                </div>
             </section>
 
             <section>
-                <a href="#" class="image"><img src="images/screening.jpg" /></a>
-                <div class="content"><div class="inner">
+                <a href="#" class="image">
+                    <img src="screening.jpg" />
+                </a>
+                <div class="content">
                     <h2>Screenings</h2>
-                    <p>Group anime screenings on campus.</p>
-                </div></div>
+                    <p>Group anime watching sessions.</p>
+                </div>
             </section>
 
             <section>
-                <a href="#" class="image"><img src="images/events.jpg" /></a>
-                <div class="content"><div class="inner">
-                    <h2>Events & News</h2>
-                    <p>Trips, events, and community activities.</p>
-                </div></div>
+                <a href="#" class="image">
+                    <img src="events.jpg" />
+                </a>
+                <div class="content">
+                    <h2>Events</h2>
+                    <p>Trips, conventions, and activities.</p>
+                </div>
             </section>
+
         </section>
 
-        <!-- Two -->
+        <!-- Activities -->
         <section id="two" class="wrapper style3 fade-up">
             <div class="inner">
+
                 <h2>Club Activities</h2>
 
                 <div class="features">
-                    <section><span class="icon solid fa-film"></span><h3>Weekly Screenings</h3></section>
-                    <section><span class="icon solid fa-comments"></span><h3>Discussion Nights</h3></section>
-                    <section><span class="icon solid fa-trophy"></span><h3>Trivia Nights</h3></section>
-                    <section><span class="icon solid fa-palette"></span><h3>Art Meetups</h3></section>
-                    <section><span class="icon solid fa-users"></span><h3>Con Meetups</h3></section>
-                    <section><span class="icon solid fa-hands-helping"></span><h3>Community</h3></section>
+                    <section><span class="icon fa-film"></span><h3>Screenings</h3></section>
+                    <section><span class="icon fa-comments"></span><h3>Discussions</h3></section>
+                    <section><span class="icon fa-trophy"></span><h3>Trivia Nights</h3></section>
+                    <section><span class="icon fa-palette"></span><h3>Art Meetups</h3></section>
+                    <section><span class="icon fa-users"></span><h3>Con Meetups</h3></section>
+                    <section><span class="icon fa-hands-helping"></span><h3>Community</h3></section>
                 </div>
+
             </div>
         </section>
 
-        <!-- Three -->
+        <!-- Forum -->
         <section id="three" class="wrapper style1 fade-up">
             <div class="inner">
 
@@ -132,7 +139,7 @@
                                     <span>SakuraBlade99</span>
                                 </div>
                                 <div class="forum-post-body">
-                                    Demon Slayer rewatch hits different.
+                                    Demon Slayer rewatch is still peak.
                                 </div>
                             </div>
 
@@ -140,6 +147,7 @@
                     </section>
 
                 </div>
+
             </div>
         </section>
 
@@ -148,18 +156,18 @@
     <!-- Footer -->
     <footer id="footer">
         <div class="inner">
-            <p>© SAMMA Nomash</p>
+            <p>© SAMMA Nomash University</p>
         </div>
     </footer>
 
-    <!-- JS (IMPORTANT ORDER) -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- JS (ALL IN ROOT) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.scrollex.min.js"></script>
+    <script src="jquery.scrolly.min.js"></script>
+    <script src="browser.min.js"></script>
+    <script src="breakpoints.min.js"></script>
+    <script src="util.js"></script>
+    <script src="main.js"></script>
 
     <!-- Forum Script -->
     <script>
